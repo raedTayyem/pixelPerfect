@@ -59,7 +59,7 @@
     </div>
     <div class="productive">
       <img src="../assets/images/stayProductive.png" />
-      <div>
+      <div class="productive-content">
         <h3>Stay productive, wherever you are</h3>
         <p>
           Never let location be an issue when accessing your files. Fylo has you
@@ -252,6 +252,13 @@ export default {
   margin: 0;
 }
 
+.productive-content{
+display: flex;
+height: 282px;
+flex-direction: column;
+justify-content: space-between;
+}
+
 .see-how{
   width: 12px;
   height: 12px;
@@ -285,5 +292,24 @@ height: 259px;
   .cards {
     margin: 0 10vw;
   }
+
+
+.productive p{
+  width: 300px;
+  height: 48px;
+}
+
+
+ h3{
+  font-size:18px
+}
+
+.landing-inner h1 {
+  width: 300px;
+  font-size:18px
+}
+.landing-inner p {
+  width: 300px;
+}
 }
 </style>
