@@ -89,6 +89,8 @@ export default {
     font-size: 12px;
     font-weight: 100;
     line-height: 14px;
+    word-break: break-all;
+    text-align: center;
   }
 }
 </style>

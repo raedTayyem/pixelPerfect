@@ -99,6 +99,9 @@ export default {
   .cards {
     width: 320px;
     margin: auto;
+    margin-top: 120px;
+    height: 1036px;
+    grid-gap: 78px;
   }
 
   .card-preview p {
