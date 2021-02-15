@@ -28,7 +28,7 @@ export default {
 <style scoped>
 /* Navbar */
 .navbar {
-  margin: 6vw 0;
+  margin: 74px 0;
   padding: 0 6vw;
   display: flex;
   justify-content: space-between;
@@ -53,13 +53,14 @@ export default {
 .navbar div img {
   height: 100%;
   width: auto;
+  margin-right: 84px;
 }
 .navbar ul {
   display: flex;
 }
 
 .navbar a {
-  font-family: [Raleway](https://fonts.google.com/specimen/Raleway);
+  font-family: Raleway;
   color: #fff;
   padding: 0.45rem;
   margin: 0 0.25rem;
@@ -67,5 +68,17 @@ export default {
 
 .navbar .welcome span {
   margin-right: 0.6rem;
+}
+
+@media (max-width: 500px) {
+  .navbar div img {
+    width: 80px;
+    height: 24px;
+    margin-right: 84px;
+  }
+
+  ul {
+    width: 166px;
+  }
 }
 </style>

@@ -1,3 +1,5 @@
+@import url('https://fonts.google.com/specimen/Raleway');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,6 +29,11 @@ ul {
   border: none;
   cursor: pointer;
   outline: none;
+  border-radius: 28px;
+  background: linear-gradient(152deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+  color: #fff;
+  font-weight: 700;
 }
 
 img {
