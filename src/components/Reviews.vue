@@ -50,6 +50,7 @@ export default {
 
   .reviews {
     grid-gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 </style>

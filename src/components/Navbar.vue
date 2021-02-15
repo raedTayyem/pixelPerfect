@@ -80,5 +80,15 @@ export default {
   ul {
     width: 166px;
   }
+
+  li {
+    width: 47.29px;
+    height: 28px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 14px;
+  }
 }
 </style>
